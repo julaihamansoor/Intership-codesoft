@@ -1,0 +1,198 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding: 0 10px;
+  }
+  
+  .logo {
+    padding: 0 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  
+  body {
+    margin: 0;
+    position: relative;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    
+  
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  
+  .heading {
+    flex-grow: 2;
+    text-align: center;
+    font-size: 250%;
+    color: white;
+  }
+  
+  .content {
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .register-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px; 
+  }
+  
+  .register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #111111;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #333333;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .card {
+    background: lightgrey;
+    width: 270px;
+    height: 440px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .card-image {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 0 0;
+    background-size: cover;
+  }
+  
+  .ph1 {
+    background-image: url("ph1.jpg");
+  }
+  
+  .ph2 {
+    background-image: url("ph2.jpg");
+  }
+  
+  .ph3 {
+    background-image: url("ph3.jpg");
+  }
+  
+  .card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.09);
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    color: black;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+  }
+  .icon:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    
+    
+  }
+  
+  
+  .flex-container > div img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  
+  
+  }
+  .course {
+             padding: 50px;
+             width: 50%;
+             margin: auto;
+             color: black;
+             background-color: lightgrey;
+             border-radius: 15px;
+             text-align: left; 
+             font-size: 18px; 
+             line-height: 1.6; /
+          }
+  
+  
